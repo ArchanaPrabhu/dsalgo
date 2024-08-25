@@ -10,8 +10,7 @@ def solution():
 
     for i in range(len(matrix)):
         for j in range(i + 1, len(matrix)):
-            if (matrix[i])
-
+            print(123)
 
 def compareStringAndUpdate(first, second, stack):
     window = 0
@@ -20,7 +19,7 @@ def compareStringAndUpdate(first, second, stack):
     else:
         window = second
 
-    for i in range(first):
+    # for i in range(first):
 
 
 if __name__ == "__main__":

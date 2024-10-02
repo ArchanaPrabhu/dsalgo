@@ -14,13 +14,14 @@
 |  Problem | Approach  |  things to remember |
 | - | - | - |
 |House Robber 2 |  | |
-| Number of islands| | |
-| rotate image | | |
+| Number of islands| use iterative bfs, visited array use deque and do popLeft()| |
+| rotate image | have left and right. Have i in range of r - l. top = l, bottom = r. start from topLeft. i is also very important | |
 | word search | | |
 | kth smallest element in a bst| | | 
 | search in rotated sorted array| | |
 | min in rotated sorted array| | |
 | top K frequent elements | we can use heap or bucket sort. <br /> have a freq arr to map freq of a character. <br /> have a count array, where we keep a list of elements which are occuring count times. length of count is length of arr| | |
+| target sum | add or subtract an element, memoize the index and target| | |
 
 
 

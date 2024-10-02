@@ -17,7 +17,7 @@
 | Number of islands| use iterative bfs, visited array use deque and do popLeft()| |
 | rotate image | have left and right. Have i in range of r - l. top = l, bottom = r. start from topLeft. i is also very important | |
 | word search | | |
-| kth smallest element in a bst| | | 
+| kth smallest element in a bst| use a stack to save the left most node possible, increment k. if k == n return<br/> else move your cur pointer to cur.right and continue the loop where you find the next min element| | 
 | search in rotated sorted array| | |
 | min in rotated sorted array| | |
 | top K frequent elements | we can use heap or bucket sort. <br /> have a freq arr to map freq of a character. <br /> have a count array, where we keep a list of elements which are occuring count times. length of count is length of arr| | |

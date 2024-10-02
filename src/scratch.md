@@ -10,10 +10,7 @@
 | Longest consecutive subsequence | create a set of the array, check if it's previous number is present, if it is beginning of a sequence, start searching for sequence and keep a max of it| simple |
 | Longest repeating character replacement| tricky but simple code. Logic is to keep the count| |
 | minimum window substring | | |
-| subset sum equal to K | use target and index approach, start from n and move till 0. <br />
-if target == 0 return true  <br />
-if index == 0 return false  <br />
-return taken and notTaken | DP |
+| subset sum equal to K | use target and index approach, start from n and move till 0. <br />if target == 0 return true  <br />if index == 0 return false  <br />return taken and notTaken | DP |
 
 |  Problem | Approach  |  things to remember |
 | - | - | - |

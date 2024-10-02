@@ -20,6 +20,7 @@
 | kth smallest element in a bst| | | 
 | search in rotated sorted array| | |
 | min in rotated sorted array| | |
+| top K frequent elements | we can use heap or bucket sort. <br /> have a freq arr to map freq of a character. <br /> have a count array, where we keep a list of elements which are occuring count times. length of count is length of arr| | |
 
 
 
